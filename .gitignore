@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables / API keys
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code local settings
+.vscode/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# ML model files
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Temporary files
+*.tmp
+*.temp
